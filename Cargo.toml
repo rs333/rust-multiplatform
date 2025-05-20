@@ -3,4 +3,12 @@ name = "multiplat"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+name="helpers"
+path="src/templates/lib.rs"
+
+[[bin]]
+name="multiplat"
+path="src/main.rs"
+
 [dependencies]
